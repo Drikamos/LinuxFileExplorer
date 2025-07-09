@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LinuxExplorerApp.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DiscUtils" Version="0.16.13" />
+    <PackageReference Include="DiscUtils.Core" Version="0.16.13" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+
+		<!-- Ikona -->
+		<ApplicationIcon>myicon.ico</ApplicationIcon>
+
+		<!-- Nazwa aplikacji i EXE -->
+		<AssemblyName>LinuxExplorer</AssemblyName>
+
+		<!-- Publikacja jako pojedynczy EXE -->
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<SelfContained>true</SelfContained>
+		<PublishSingleFile>true</PublishSingleFile>
+		<PublishTrimmed>false</PublishTrimmed>
+		<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="myicon.ico" Pack="true" Visible="true" />
+	</ItemGroup>
+
+</Project>
