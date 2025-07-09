@@ -3,7 +3,7 @@
 A lightweight and intuitive file explorer application for Windows, written in C# using Windows Forms.  
 Designed to offer a familiar user experience similar to Windows Explorer — drag & drop, right-click context menus, file/folder operations, and more.
 
-![screenshot]([docs/screenshot.png](https://imgur.com/a/4ki6uYn)) <!-- (optional: add image of your app UI here) -->
+![screenshot](docs/screenshot.png](https://imgur.com/a/4ki6uYn) <!-- (optional: add image of your app UI here) -->
 
 ---
 
